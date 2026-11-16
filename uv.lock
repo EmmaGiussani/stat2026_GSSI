@@ -1790,7 +1790,7 @@ wheels = [
 [[package]]
 name = "stat2026-gssi"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "matplotlib" },
     { name = "numpy" },

@@ -1,7 +1,7 @@
 [project]
 name = "stat2026-gssi"
 version = "0.1.0"
-description = "Add your description here"
+description = "Exercises and lecture notes for the GSSI statistics course (2026)."
 readme = "README.md"
 authors = [
     { name = "Emma Giussani", email = "e.giussani11@campus.unimib.it" }
@@ -13,13 +13,6 @@ dependencies = [
     "pandas>=3.1.1",
     "scipy>=1.18.1",
 ]
-
-[project.scripts]
-stat2026-gssi = "stat2026_gssi:main"
-
-[build-system]
-requires = ["uv_build>=0.13.6,<0.14.0"]
-build-backend = "uv_build"
 
 [dependency-groups]
 dev = [

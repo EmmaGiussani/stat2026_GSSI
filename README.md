@@ -1,27 +1,39 @@
-# Statistica 2026 - GSSI
+# Statistics 2026 - GSSI
 
-Repository degli esercizi del corso di statistica al GSSI, svolti in notebook
-Python.
+Exercises and lecture notes for the statistics course at GSSI. Exercises are
+solved in Python notebooks; the lecture notes are collected in a single PDF.
 
-## Ambiente
+## Repository layout
 
-Le dipendenze del progetto sono definite in `pyproject.toml` e `uv.lock`.
-Dalla cartella della repository, sincronizza l'ambiente con:
-
-```bash
-uv sync
+```
+exercises/
+  01_distributions/        one folder per course topic
+    ex01_<name>.ipynb      one notebook per exercise sheet
+notes/
+  lecture_notes.pdf        reviewed lecture notes (single file, updated in place)
+  sources/mine/            my own lecture notes and exercise texts
 ```
 
-Per avviare JupyterLab:
+The exercise texts are the Markdown cells at the top of each notebook. The
+lecture notes PDF points to the notebook where each exercise is solved.
+
+## Environment
+
+Dependencies are defined in `pyproject.toml` and `uv.lock` (managed with
+[uv](https://docs.astral.sh/uv/)). From the repository folder:
 
 ```bash
-uv run jupyter lab
+uv sync                # create/update .venv
+uv run jupyter lab     # start JupyterLab
 ```
 
-In VS Code, seleziona come kernel l'interprete Python della cartella `.venv`.
+In VS Code, select the interpreter in `.venv` as the notebook kernel.
+Add new libraries with `uv add <package>`, never with `pip install`.
 
-## Esercizi
+## Conventions
 
-I notebook saranno raccolti nella cartella `esercizi/` e nominati, per esempio,
-`es01_argomento.ipynb`. Le spiegazioni vanno inserite in celle Markdown e le
-formule possono essere scritte in LaTeX.
+- Everything in the repository (notebooks, notes, commit messages) is in English.
+- Notebook names: `exNN_<topic>.ipynb`, inside the folder of the topic.
+- Explanations go in Markdown cells, formulas in LaTeX.
+- Before each commit: *Restart Kernel and Run All*, so the notebook is known to
+  run from top to bottom.

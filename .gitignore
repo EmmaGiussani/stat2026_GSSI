@@ -1,2 +1,10 @@
 .venv/
 .ipynb_checkpoints/
+__pycache__/
+
+# Working files, not part of the deliverables
+plan.md
+notes/drafts/
+
+# Professor's notes: not mine to redistribute in a public repository
+notes/sources/professor/
