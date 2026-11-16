@@ -4,7 +4,8 @@ __pycache__/
 
 # Working files, not part of the deliverables
 plan.md
-notes/drafts/
 
-# Professor's notes: not mine to redistribute in a public repository
-notes/sources/professor/
+# Local only: source notes (mine and the professor's) and drafts of the PDF.
+# Only the final notes/lecture_notes.pdf goes on GitHub.
+notes/sources/
+notes/drafts/

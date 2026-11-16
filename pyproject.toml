@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Exercises and lecture notes for the GSSI statistics course (2026)."
 readme = "README.md"
 authors = [
-    { name = "Emma Giussani", email = "e.giussani11@campus.unimib.it" }
+    { name = "Emma Giussani", email = "165904889+EmmaGiussani@users.noreply.github.com" }
 ]
 requires-python = ">=3.14"
 dependencies = [

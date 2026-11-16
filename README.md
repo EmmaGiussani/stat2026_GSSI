@@ -11,7 +11,6 @@ exercises/
     ex01_<name>.ipynb      one notebook per exercise sheet
 notes/
   lecture_notes.pdf        reviewed lecture notes (single file, updated in place)
-  sources/mine/            my own lecture notes and exercise texts
 ```
 
 The exercise texts are the Markdown cells at the top of each notebook. The
