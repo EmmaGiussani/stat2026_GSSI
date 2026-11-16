@@ -8,7 +8,8 @@ solved in Python notebooks; the lecture notes are collected in a single PDF.
 ```
 exercises/
   01_distributions/        one folder per course topic
-    ex01_<name>.ipynb      one notebook per exercise sheet
+    ex01_<name>.ipynb      one notebook per exercise (numbering restarts in each topic)
+  02_monte_carlo/
 notes/
   lecture_notes.pdf        reviewed lecture notes (single file, updated in place)
 ```
