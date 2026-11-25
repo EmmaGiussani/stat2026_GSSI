@@ -1,21 +1,33 @@
 # Statistics 2026 - GSSI
 
-Exercises and lecture notes for the statistics course at GSSI. Exercises are
-solved in Python notebooks; the lecture notes are collected in a single PDF.
+Lecture notes and exercises for the statistics course at GSSI, all written as
+Python notebooks: one notebook per lecture, one notebook per exercise.
 
 ## Repository layout
 
 ```
+lectures/
+  L01_probability.ipynb               one notebook per lecture,
+  L02_distributions.ipynb             with figures already executed
+  L03_monte_carlo_information.ipynb
+  L04_point_estimation.ipynb
 exercises/
   01_distributions/        one folder per course topic
     ex01_<name>.ipynb      one notebook per exercise (numbering restarts in each topic)
   02_monte_carlo/
-notes/
-  lecture_notes.pdf        reviewed lecture notes (single file, updated in place)
+  03_point_estimation/
 ```
 
-The exercise texts are the Markdown cells at the top of each notebook. The
-lecture notes PDF points to the notebook where each exercise is solved.
+Each lecture notebook links to the exercises of that lecture. The exercise
+texts are the Markdown cells at the top of each exercise notebook, followed by
+the solution.
+
+## Credits
+
+The lectures are by G. Benato (GSSI). A few examples in the lecture notebooks
+are inspired by D. Gerosa's
+[Astrostatistics and Machine Learning](https://github.com/dgerosa/astrostatistics_bicocca_2025)
+(Milano-Bicocca 2025).
 
 ## Environment
 
