@@ -1,21 +1,23 @@
 # Statistics 2026 - GSSI
 
 Lecture notes and exercises for the statistics course at GSSI, all written as
-Python notebooks: one notebook per lecture, one notebook per exercise.
+Python notebooks: one notebook per topic, one notebook per exercise.
 
 ## Repository layout
 
 ```
 lectures/
-  L01_probability.ipynb               one notebook per lecture,
+  L01_probability.ipynb               one notebook per course topic,
   L02_distributions.ipynb             with figures already executed
-  L03_monte_carlo_information.ipynb
-  L04_point_estimation.ipynb
+  L03_monte_carlo.ipynb               (the banner gives the lecture and date)
+  L04_information_measurement.ipynb
+  L05_point_estimation.ipynb
 exercises/
   01_distributions/        one folder per course topic
     ex01_<name>.ipynb      one notebook per exercise (numbering restarts in each topic)
   02_monte_carlo/
   03_point_estimation/
+  04_interval_estimation/
 ```
 
 Each lecture notebook links to the exercises of that lecture. The exercise
